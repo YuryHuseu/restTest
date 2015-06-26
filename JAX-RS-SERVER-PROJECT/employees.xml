@@ -1,0 +1,9 @@
+<?xml encoding="UTF-8" standalone="yes"?>
+<employees>
+    <employee id="1">
+        <name>Иванов Иван Иванович</name>
+    </employee>
+    <employee id="2">
+        <name>Петров Петр Петрович</name>
+    </employee>
+</employees>
