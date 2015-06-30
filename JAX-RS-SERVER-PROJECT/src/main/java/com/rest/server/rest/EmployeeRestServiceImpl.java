@@ -13,7 +13,7 @@ import javax.ws.rs.core.Response;
 import java.util.List;
 
 @Component
-@Path("/employees")
+@Path("/employee")
 public class EmployeeRestServiceImpl implements EmployeeRestService {
 
     @Autowired
@@ -21,6 +21,7 @@ public class EmployeeRestServiceImpl implements EmployeeRestService {
 
     @Override
     @GET
+    @Path("/all")
 //    @Produces(MediaType.APPLICATION_XML + ";charset=utf-8")
     @Produces(MediaType.APPLICATION_JSON + ";charset=utf-8")
     public Response findAll() {
