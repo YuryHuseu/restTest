@@ -1,5 +1,7 @@
 package com.rest.client.entity.employee;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * Created by ygusev on 25.06.2015.
  */

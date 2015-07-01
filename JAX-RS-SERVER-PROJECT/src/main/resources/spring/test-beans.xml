@@ -13,10 +13,16 @@
                     <property name="middleName" value="Иванович"/>
                 </bean>
                 <bean id="petrov" class="com.rest.server.entity.employee.Employee">
-                    <property name="id" value="1"/>
+                    <property name="id" value="2"/>
                     <property name="firstName" value="Петр"/>
                     <property name="secondName" value="Петров"/>
                     <property name="middleName" value="Петрович"/>
+                </bean>
+                <bean id="sergeev" class="com.rest.server.entity.employee.Employee">
+                    <property name="id" value="3"/>
+                    <property name="firstName" value="Сергей"/>
+                    <property name="secondName" value="Сергеев"/>
+                    <property name="middleName" value="Сергеевич"/>
                 </bean>
             </list>
         </property>
