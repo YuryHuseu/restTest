@@ -25,4 +25,5 @@
             </c:forEach>
         </tbody>
     </table>
+    <a href="${pageContext.request.contextPath}/employee/export">Выгрузить в Excel</a>
 </c:if>
