@@ -9,7 +9,7 @@
         <ui:composition>
             <h:form id="mainMenuForm">
                 <p:menubar>
-                    <p:menuitem id="mIndex" value="#{msgs['mainMenu.index']}" action="#" />
+                    <p:menuitem id="mIndex" value="#{msgs['mainMenu.index']}" action="#{mainMenuBean.index}" />
                     <!--<p:menuitem id="mJdent" value="#{msgs['mainMenu.jdent']}" action="#{mainMenuBean.jdent}" rendered="#{configBean.jdentIntegrationEnabled}" />-->
                     <!--<p:menuitem id="mReports" value="#{msgs['mainMenu.reports']}" icon="ui-icon ui-icon-copy" />-->
                     <p:submenu id="mSettings" label="#{msgs['mainMenu.settings']}" icon="ui-icon ui-icon-gear">
