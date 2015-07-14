@@ -37,7 +37,7 @@
 
     <!-- Welcome page -->
     <welcome-file-list>
-        <welcome-file>pages/index.xhtml</welcome-file>
+        <welcome-file>pages/employee/employees.xhtml</welcome-file>
     </welcome-file-list>
 
     <!-- JSF mapping -->
@@ -69,4 +69,5 @@
         <param-name>javax.faces.FACELETS_SKIP_COMMENTS</param-name>
         <param-value>true</param-value>
     </context-param>
+
 </web-app>

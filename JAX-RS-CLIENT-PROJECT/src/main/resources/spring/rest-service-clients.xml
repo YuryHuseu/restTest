@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="employeeRestClient" class="com.rest.client.rest.client.EmployeeRestClient">
+    <bean id="employeeRestClient" class="com.rest.client.impl.rest.client.EmployeeRestClient">
         <property name="serviceUrl" value="${employeeServiceUrl}" />
     </bean>
 

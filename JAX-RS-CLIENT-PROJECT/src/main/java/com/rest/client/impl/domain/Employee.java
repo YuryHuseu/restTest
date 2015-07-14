@@ -1,6 +1,4 @@
-package com.rest.client.entity.employee;
-
-import javax.xml.bind.annotation.XmlRootElement;
+package com.rest.client.impl.domain;
 
 /**
  * Created by ygusev on 25.06.2015.

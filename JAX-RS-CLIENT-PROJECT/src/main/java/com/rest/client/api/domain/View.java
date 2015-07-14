@@ -2,7 +2,8 @@ package com.rest.client.api.domain;
 
 public enum View {
 
-    INDEX("/pages/index?faces-redirect=true");
+//    INDEX("/pages/index?faces-redirect=true");
+    EMPLOYEES("pages/employee/employees");
 
     private String path;
 

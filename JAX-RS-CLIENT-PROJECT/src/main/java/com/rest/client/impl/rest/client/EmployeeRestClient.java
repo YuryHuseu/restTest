@@ -1,6 +1,6 @@
-package com.rest.client.rest.client;
+package com.rest.client.impl.rest.client;
 
-import com.rest.client.entity.employee.Employee;
+import com.rest.client.impl.domain.Employee;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
@@ -10,9 +10,7 @@ import com.sun.jersey.api.json.JSONConfiguration;
 import org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by ygusev on 30.06.2015.

@@ -1,18 +1,20 @@
 package com.rest.client.impl.jsf.bean;
 
-import static com.rest.client.api.domain.View.INDEX;
+import static com.rest.client.api.domain.View.EMPLOYEES;
 
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
 
 @ManagedBean
+@SessionScoped
 public class MainMenuBean {
 
     /**
-     * Redirects to schedules.xhtml page.
+     * Redirects to employees.xhtml page.
      *
      * @return path to redirect
      */
-    public String index() {
-        return INDEX.getPath();
+    public String employees() {
+        return EMPLOYEES.getPath();
     }
 }
